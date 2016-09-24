@@ -1,0 +1,23 @@
+group 'com.albert.test'
+apply plugin: 'java'
+apply plugin: 'application'
+repositories{
+	jcenter()
+}
+mainClassName = 'com.albert.test.Test'
+test {
+	systemProperties 'property': 'value'
+}
+dependencies{
+	compile 'junit:junit:4.12'
+}
+sourceSets{
+	preBuildSources
+	main{
+		java {
+			srcDir 'build/com/albert/test'
+		}
+		compileClasspath += preBuildSources.output
+		runtimeClasspath += preBuildSources.output
+	}
+}
