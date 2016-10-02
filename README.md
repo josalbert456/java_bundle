@@ -4,3 +4,5 @@ Sometimes, or often, encapulation is not simply to bundle up some detailed funct
 Most basic files to use gradle: build.gradle & Test.java. Command: gradle (-q) build; gradle (-q) run
 
 CharSeqImp.java, OutOfCharBoundException.java: CharSequence simple implementation
+
+Factory.java, FactoryTest.java: is it factory pattern? 
