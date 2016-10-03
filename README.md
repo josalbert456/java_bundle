@@ -8,4 +8,4 @@ CharSeqImp.java, OutOfCharBoundException.java: CharSequence simple implementatio
 Factory.java, FactoryTest.java: is it factory pattern? 
 
 FreeMemory.java: check for free memory, Runtime class in JDK is a good tool to debug and 
-if you know java better, javap is also a good tool for this purpose
+if you know java better, you may probably know javap, the cmd tool for debugging, or regression
