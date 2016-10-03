@@ -6,3 +6,6 @@ Most basic files to use gradle: build.gradle & Test.java. Command: gradle (-q) b
 CharSeqImp.java, OutOfCharBoundException.java: CharSequence simple implementation
 
 Factory.java, FactoryTest.java: is it factory pattern? 
+
+FreeMemory.java: check for free memory, Runtime class in JDK is a good tool to debug and 
+if you know java better, javap is also a good tool for this purpose
