@@ -9,3 +9,5 @@ Factory.java, FactoryTest.java: is it factory pattern?
 
 FreeMemory.java: check for free memory, Runtime class in JDK is a good tool to debug and 
 if you know java better, you may probably know javap, the cmd tool for debugging, or disassembly
+
+NewLoader.java NewLoaderTest.java: a Java version of dofile in Lua or loadLib in c/c++, maybe more powerful, is it the base for RMI (Remote Method Invocation)?
