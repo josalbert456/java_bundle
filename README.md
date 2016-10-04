@@ -1,5 +1,5 @@
 # java_bundle
-Below is what I've gotten when I read a great book about Java, thus I think it is not unsafe to share it with others. And if you read it maybe you'll get more.
+Below is what I've gotten from the book I am reading now, thus I think it is not unsafe to share it with others. And if you read it maybe you'll get more.
 
 Sometimes, or often, encapulation is not simply to bundle up some detailed functions together, but also to create new functions on the top of the detailed functions: KeyMap.java. 
 
