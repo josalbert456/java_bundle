@@ -13,3 +13,5 @@ FreeMemory.java: check for free memory, Runtime class in JDK is a good tool to d
 if you know java better, you may probably know javap, the cmd tool for debugging, or disassembly
 
 NewLoader.java NewLoaderTest.java: a Java version of dofile in Lua or loadLib in c/c++, maybe more powerful, is it the base for RMI (Remote Method Invocation)?
+
+ReflectTest.java: an incidental practice of Reflection. Is it reflective stuff?
