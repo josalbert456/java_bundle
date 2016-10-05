@@ -18,7 +18,6 @@ class GoodsOutofMaxException extends Exception{
 
 class Goods{
 	private int MAX_REPOSITORY = 100;
-	private int currentGoodsCounter = 0;
 	private Map<Class, Integer> goodCounter = new HashMap<Class, Integer>();
 	private ArrayList<GoodBase> pack = new ArrayList<GoodBase>();
 
@@ -37,10 +36,6 @@ class Goods{
 	}
 	public int count(Class c){
 		return goodCounter.containsKey(c)?goodCounter.get(c):0;
-	}
-	public boolean isPackEmpty(){
-		if(currentGoodsCounter==0)return true;
-		else return false;
 	}
 	public int getPackRemainSpace(Class c){
 		int currentGoodsCounter = count(c);
