@@ -17,3 +17,6 @@ NewLoader.java NewLoaderTest.java: a Java version of dofile in Lua or loadLib in
 ReflectTest.java: an incidental practice of Reflection. Is it reflective stuff?
 
 TemplateTest.java: A template that accepts only subclasses of a certain BaseClass and throws Exception when class type unmatched
+
+// or if(t instanceof PlanetBase || t instance of AnotherBaseClass)... may be a little useful
+
