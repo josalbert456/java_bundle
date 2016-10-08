@@ -15,3 +15,5 @@ if you know java better, you may probably know javap, the cmd tool for debugging
 NewLoader.java NewLoaderTest.java: a Java version of dofile in Lua or loadLib in c/c++, maybe more powerful, is it the base for RMI (Remote Method Invocation)?
 
 ReflectTest.java: an incidental practice of Reflection. Is it reflective stuff?
+
+TemplateTest.java: A template that accepts only subclasses of a certain BaseClass and throws Exception when class type unmatched
